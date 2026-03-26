@@ -1,0 +1,30 @@
+aid: noname-security
+name: Noname Security
+description: >-
+  Noname Security (now Akamai API Security) is an API security platform for discovering, analyzing, and protecting APIs from threats.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API Analysis
+  - API Security
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/noname-security/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-03-26'
+specificationVersion: '0.19'
+apis:
+  - aid: noname-security:noname-security
+    name: Noname Security
+    description: >-
+      Noname Security (now Akamai API Security) is an API security platform for discovering, analyzing, and protecting APIs from threats.
+    humanURL: https://nonamesecurity.com
+    tags:
+      - API Analysis
+      - API Security
+    properties: []
+common:
+  - type: Website
+    url: https://nonamesecurity.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

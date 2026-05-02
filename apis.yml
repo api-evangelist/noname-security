@@ -7,8 +7,11 @@ description: >-
   APIs including shadow and rogue APIs, detect misconfigurations and
   vulnerabilities, and protect against API-based attacks across their entire API
   estate.
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/noname-security/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-04-28'
+specificationVersion: '0.19'
 tags:
   - API Discovery
   - API Security
@@ -16,11 +19,6 @@ tags:
   - Posture Management
   - Runtime Protection
   - Shadow APIs
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/noname-security/refs/heads/main/apis.yml
-created: '2026-03-26'
-modified: '2026-03-26'
-specificationVersion: '0.19'
 apis:
   - aid: noname-security:api-security-platform
     name: Noname API Security Platform
@@ -30,6 +28,7 @@ apis:
       testing. It discovers all APIs across the organization, detects
       misconfigurations, monitors for anomalous behavior and attacks, and
       enables pre-production API security testing.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com
     tags:
       - API Discovery
@@ -49,39 +48,48 @@ apis:
       organization, including managed, unmanaged, shadow, and legacy APIs. It
       automatically catalogs APIs, classifies sensitive data, and identifies
       data types flowing through API traffic.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com/product/discovery
     tags:
       - API Discovery
       - API Inventory
       - Data Classification
       - Shadow APIs
-    properties: []
+    properties:
+      - type: Documentation
+        url: https://docs.nonamesecurity.com/
   - aid: noname-security:runtime-protection
     name: Noname Runtime Protection
     description: >-
       Noname Runtime Protection uses AI and machine learning to detect and block
       API attacks in real time, including data leakage, policy violations,
       suspicious behavior, and targeted attacks on APIs.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com/product/protect
     tags:
       - API Security
       - Real-Time Monitoring
       - Runtime Protection
       - Threat Detection
-    properties: []
+    properties:
+      - type: Documentation
+        url: https://docs.nonamesecurity.com/
   - aid: noname-security:active-testing
     name: Noname Active Testing
     description: >-
       Noname Active Testing enables organizations to test APIs for
       vulnerabilities and misconfigurations before they reach production,
       integrating into CI/CD pipelines for shift-left API security testing.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com/product/active-testing
     tags:
       - API Testing
       - CI/CD
       - Security Testing
       - Shift Left
-    properties: []
+    properties:
+      - type: Documentation
+        url: https://docs.nonamesecurity.com/
 common:
   - type: Website
     url: https://nonamesecurity.com
@@ -104,5 +112,6 @@ common:
   - type: Twitter
     url: https://twitter.com/NonameSecurity
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+  - FN: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com

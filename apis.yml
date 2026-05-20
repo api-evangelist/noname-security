@@ -91,6 +91,8 @@ apis:
       - type: Documentation
         url: https://docs.nonamesecurity.com/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/nonamesec
   - type: Website
     url: https://nonamesecurity.com
   - type: Documentation

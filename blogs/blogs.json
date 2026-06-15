@@ -2,6 +2,10 @@
   "repo": "noname-security",
   "feeds": [
     {
+      "source": "https://www.akamai.com/products/api-security",
+      "error": "HTTPError"
+    },
+    {
       "source": "https://docs.nonamesecurity.com/",
       "feed_url": "https://docs.nonamesecurity.com/",
       "title": "",
@@ -9,6 +13,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-06-01T23:35:02Z",
-  "post_count": 0
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }

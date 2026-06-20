@@ -7,7 +7,7 @@ description: >-
   APIs including shadow and rogue APIs, detect misconfigurations and
   vulnerabilities, and protect against API-based attacks across their entire API
   estate.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/noname-security/refs/heads/main/apis.yml
 created: '2026-03-26'
 modified: '2026-04-28'
@@ -28,7 +28,7 @@ apis:
       testing. It discovers all APIs across the organization, detects
       misconfigurations, monitors for anomalous behavior and attacks, and
       enables pre-production API security testing.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com
     tags:
       - API Discovery
@@ -48,7 +48,7 @@ apis:
       organization, including managed, unmanaged, shadow, and legacy APIs. It
       automatically catalogs APIs, classifies sensitive data, and identifies
       data types flowing through API traffic.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com/product/discovery
     tags:
       - API Discovery
@@ -64,7 +64,7 @@ apis:
       Noname Runtime Protection uses AI and machine learning to detect and block
       API attacks in real time, including data leakage, policy violations,
       suspicious behavior, and targeted attacks on APIs.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com/product/protect
     tags:
       - API Security
@@ -80,7 +80,7 @@ apis:
       Noname Active Testing enables organizations to test APIs for
       vulnerabilities and misconfigurations before they reach production,
       integrating into CI/CD pipelines for shift-left API security testing.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://nonamesecurity.com/product/active-testing
     tags:
       - API Testing

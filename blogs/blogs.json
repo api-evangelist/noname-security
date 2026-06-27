@@ -2,17 +2,12 @@
   "repo": "noname-security",
   "feeds": [
     {
-      "source": "https://www.akamai.com/products/api-security",
-      "error": "HTTPError"
-    },
-    {
-      "source": "https://docs.nonamesecurity.com/",
-      "feed_url": "https://docs.nonamesecurity.com/",
-      "title": "",
+      "source": "https://nonamesecurity.com/blog",
       "saved": 0,
-      "method": "none"
+      "error": "301 redirect off-host to akamai.com/products/api-security; blog retired post-acquisition"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:56:48Z",
+  "agent_pulled": "2026-06-27"
 }

@@ -91,6 +91,8 @@ apis:
       - type: Documentation
         url: https://docs.nonamesecurity.com/
 common:
+  - type: DomainSecurity
+    url: security/noname-security-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/nonamesec
   - type: Website

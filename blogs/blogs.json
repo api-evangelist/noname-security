@@ -2,12 +2,14 @@
   "repo": "noname-security",
   "feeds": [
     {
-      "source": "https://nonamesecurity.com/blog",
+      "source": "https://docs.nonamesecurity.com/",
+      "feed_url": "https://docs.nonamesecurity.com/",
+      "title": "",
       "saved": 0,
-      "error": "301 redirect off-host to akamai.com/products/api-security; blog retired post-acquisition"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T12:56:48Z",
-  "agent_pulled": "2026-06-27"
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }

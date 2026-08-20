@@ -98,6 +98,11 @@ apis:
       - API Testing
       - CI/CD
       - Security Testing
+      - shiftleft
+    tags_raw:
+      - API Testing
+      - CI/CD
+      - Security Testing
       - Shift Left
     properties:
       - type: Documentation

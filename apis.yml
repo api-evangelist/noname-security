@@ -109,7 +109,7 @@ apis:
       - API Testing
       - CI/CD
       - Security Testing
-      - shiftleft
+      - Shift Left
     tags_raw:
       - API Testing
       - CI/CD
@@ -119,6 +119,11 @@ apis:
       - type: Documentation
         url: https://docs.nonamesecurity.com/
 common:
+  - type: ParentCompany
+    url: https://apis.io/providers/akamai/
+    name: Akamai
+    x-relationship: acquired
+    x-evidence: "Noname Security (acquired by Akamai in 2024) is an API security platform that provides complete API discovery, posture management, runtime protection, and active testing capabilities."
   - type: DomainSecurity
     url: security/noname-security-domain-security.yml
   - type: GitHubOrganization

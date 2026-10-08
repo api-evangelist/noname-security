@@ -121,6 +121,12 @@ apis:
       - type: Documentation
         url: https://docs.nonamesecurity.com/
 common:
+  - type: Plans
+    url: plans/noname-security-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/noname-security-rate-limits.yml
+  - type: FinOps
+    url: finops/noname-security-finops.yml
   - type: ParentCompany
     url: https://apis.io/providers/akamai/
     name: Akamai

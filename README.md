@@ -1,4 +1,4 @@
-# Noname Security (noname-security)
+# Noname Security
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,87 +66,105 @@
 
 Noname Security (acquired by Akamai in 2024) is an API security platform that provides complete API discovery, posture management, runtime protection, and active testing capabilities. The platform helps organizations discover all APIs including shadow and rogue APIs, detect misconfigurations and vulnerabilities, and protect against API-based attacks across their entire API estate.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/noname-security/refs/heads/main/apis.yml)
+**Areas:** API Discovery · API Security · API Testing · Developer Tools · Posture Management · Runtime Protection · Shadow APIs
 
-## Tags:
+## Noname Security on APIs.io
 
- - API Discovery, API Security, API Testing, Posture Management, Runtime Protection, Shadow APIs
+Everything profiled for Noname Security is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/noname-security/](https://apis.io/providers/noname-security/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-28
+- [Noname API Security Platform](https://apis.io/apis/noname-security/api-security-platform/) — The Noname API Security Platform provides comprehensive API security through discovery, posture management, runtime protection, and active testing. It…
+- [Noname API Discovery](https://apis.io/apis/noname-security/api-discovery/) — Noname API Discovery provides complete visibility into all APIs across an organization, including managed, unmanaged, shadow, and legacy APIs. It…
+- [Noname Runtime Protection](https://apis.io/apis/noname-security/runtime-protection/) — Noname Runtime Protection uses AI and machine learning to detect and block API attacks in real time, including data leakage, policy violations, suspicious…
+- [Noname Active Testing](https://apis.io/apis/noname-security/active-testing/) — Noname Active Testing enables organizations to test APIs for vulnerabilities and misconfigurations before they reach production, integrating into CI/CD…
 
-## APIs
+### Published properties
 
-### Noname API Security Platform
-The Noname API Security Platform provides comprehensive API security through discovery, posture management, runtime protection, and active testing. It discovers all APIs across the organization, detects misconfigurations, monitors for anomalous behavior and attacks, and enables pre-production API security testing.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://nonamesecurity.com](https://nonamesecurity.com)
+#### Security (1)
 
-#### Tags:
+Authentication, trust centre, and vulnerability disclosure.
 
- - API Discovery, API Security, API Testing, Posture Management, Runtime Protection
+- [Noname Security Domain Security](https://apis.io/security/noname-security/noname-security-domain-security/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://docs.nonamesecurity.com/)
-- [GettingStarted](https://docs.nonamesecurity.com/docs/getting-started)
+Published plans, tiers and prices.
 
-### Noname API Discovery
-Noname API Discovery provides complete visibility into all APIs across an organization, including managed, unmanaged, shadow, and legacy APIs. It automatically catalogs APIs, classifies sensitive data, and identifies data types flowing through API traffic.
+- [Noname Security Plans Pricing](https://apis.io/plans/noname-security/noname-security-plans-pricing/)
 
-**Human URL:** [https://nonamesecurity.com/product/discovery](https://nonamesecurity.com/product/discovery)
+#### Rate limits (1)
 
-#### Tags:
+Published request limits.
 
- - API Discovery, API Inventory, Data Classification, Shadow APIs
+- [Noname Security Rate Limits](https://apis.io/rate-limits/noname-security/noname-security-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://docs.nonamesecurity.com/)
+What the API costs to run, by operation.
 
-### Noname Runtime Protection
-Noname Runtime Protection uses AI and machine learning to detect and block API attacks in real time, including data leakage, policy violations, suspicious behavior, and targeted attacks on APIs.
+- [Noname Security Finops](https://apis.io/finops/noname-security/noname-security-finops/)
 
-**Human URL:** [https://nonamesecurity.com/product/protect](https://nonamesecurity.com/product/protect)
+## Where to find this API
 
-#### Tags:
-
- - API Security, Real-Time Monitoring, Runtime Protection, Threat Detection
-
-#### Properties
-
-- [Documentation](https://docs.nonamesecurity.com/)
-
-### Noname Active Testing
-Noname Active Testing enables organizations to test APIs for vulnerabilities and misconfigurations before they reach production, integrating into CI/CD pipelines for shift-left API security testing.
-
-**Human URL:** [https://nonamesecurity.com/product/active-testing](https://nonamesecurity.com/product/active-testing)
-
-#### Tags:
-
- - API Testing, CI/CD, Security Testing, Shift Left
-
-#### Properties
-
-- [Documentation](https://docs.nonamesecurity.com/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://nonamesecurity.com)
 - [Documentation](https://docs.nonamesecurity.com/)
 - [Blog](https://nonamesecurity.com/blog)
-- [About](https://nonamesecurity.com/company)
-- [Partners](https://nonamesecurity.com/partners)
-- [Integrations](https://nonamesecurity.com/integrations)
-- [Login](https://app.nonamesecurity.com/)
-- [Contact](https://nonamesecurity.com/contact-us)
-- [LinkedIn](https://www.linkedin.com/company/nonamesecurity/)
-- [Twitter](https://twitter.com/NonameSecurity)
+- [GitHub](https://github.com/nonamesec)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** API Evangelist
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 14.5 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/noname-security/](https://apis.io/providers/noname-security/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Noname Security: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/noname-security/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
